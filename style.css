@@ -1,0 +1,324 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/uberbg.png.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+}
+
+.nav-flex{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.right-nav{
+
+    margin-right: 65px;
+
+}
+
+.left-nav{
+
+    display: flex;
+    align-items:center;
+    margin-left: 40px;
+}
+
+.left-nav img{
+
+    margin-left: 30px;
+}
+
+.right-nav button{
+
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 2.5em;
+    font-weight: 600;
+}
+.lgn-btn{
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.lgn-btn:hover{
+
+    background-color: rgb(241, 239, 239);
+}
+.lgn-btn i{
+    margin-right: 5px;
+}
+
+.sgp-btn{
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.sgp-btn:hover{
+
+    background-color: rgb(39, 39, 39);
+}
+.header-middle-part{
+
+    margin-top: 300px;
+    margin-left: 40px;
+}
+.header-middle-part div{
+
+    display: inline-block;
+}
+.header-middle-part h1{
+
+    font-size: 2.5em;
+    font-weight: 700;
+
+}
+.header-middle-part h6{
+
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-middle-part a{
+
+    color: black;
+
+}
+#address{
+
+    width: 490px;
+    height: 55px;
+    padding-left: 50px;
+    position: relative;
+    font-weight: 600;
+    border: none;
+}
+.address-box i{
+
+    position: absolute;
+    margin: 15px;
+    z-index: 1;
+}
+#delivery-time{
+
+    height: 55px;
+    width: 185px;
+    padding-left: 50px;
+    font-weight: 600;
+    border: none;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.delivery-box i{
+    position: absolute;
+    margin: 18px;
+}
+.delivery-box option{
+
+    font-weight: 600;
+    position: relative;
+}
+.search-btn{
+
+    height: 55px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.search-btn:hover{
+
+    background-color: rgb(39, 39, 39);
+}
+.image-grid{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 80px;
+    
+}
+.ub-images h2{
+
+    margin-top: 0px;
+    display: inline;
+    font-weight: 600;
+}
+.ub-images a{
+
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+.cities-header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 40px;
+}
+.cities-header h2{
+
+    font-size: 39px;
+}
+.cities-header a{
+
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.map-image{
+
+    margin-left: 44px;
+    margin-top: -50px;
+}
+.cities-grid li{
+
+    list-style-type: none;
+    font-size: 17px;
+    font-weight:normal;
+    cursor: pointer;
+    
+}
+.cities-grid{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 25px;
+}
+.countries-header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.countries-header h2{
+
+    font-size: 39px;
+}
+.countries-header a{
+
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+.countries-grid li{
+
+    list-style-type: none;
+    font-size: 17px;
+    font-weight:normal;
+    cursor: pointer;
+  
+}
+.countries-grid{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-auto-flow: column;
+    row-gap: 25px;
+    margin-top: -40px;
+}
+main hr{
+    width: 100vw;
+    margin-top: 80px;
+    border: 1px solid rgb(241, 239, 239);
+}
+.uber-logo{
+    display: block;
+}
+.footer-top-links{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 18px;
+    column-gap: 70px;
+    font-size: 17px;
+    padding-right: 70px;
+}
+.footer-top-links a{
+
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+.footer-top{
+
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 70px;
+    margin-right: 70px;
+}
+.store-logos{
+
+    margin-top: 160px;
+}
+footer hr{
+
+    margin-top: 35px;
+    width: 1190px;
+    border: 1px solid rgb(241, 239, 239);
+}
+.footer-bottom{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.media-logos i{
+
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer-bottom-links{
+
+    margin-left: 170px;
+}
+.footer-bottom-links a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-right: 25px;
+}
+.footer-end{
+
+    font-size: 15px;
+    color: black;
+    float: right;
+    margin-top: 18px;
+    margin-right: 363px;
+    margin-bottom: 90px;
+}
+.footer-end span{
+
+    padding-left: 50px;
+}
+.footer-end a{
+
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+
+    text-decoration: underline;
+}
